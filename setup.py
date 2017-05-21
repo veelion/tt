@@ -1,10 +1,10 @@
 
 if __name__ == "__main__":
-    from distutils.core import setup
+    from setuptools import setup
 
     setup(
         name='TerminalTranslator',
-        version='0.7',
+        version='0.8',
         author="Veelion chong",
         author_email="veelion@gmail.com",
         license='MIT',
