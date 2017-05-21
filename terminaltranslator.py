@@ -25,6 +25,7 @@ CYA = '\x1b[36m'
 WHI = '\x1b[37m'
 NOR = '\x1b[0m'
 
+# http://fanyi.youdao.com/openapi?path=data-mode
 YOUDAO_KEYFROM = 'translatorT'
 YOUDAO_KEY = '1840641670'
 
