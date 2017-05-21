@@ -1,1 +1,1 @@
-translator.py
+terminaltranslator.py
