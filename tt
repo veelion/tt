@@ -1,1 +1,0 @@
-terminaltranslator.py

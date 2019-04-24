@@ -5,6 +5,7 @@
 
 from __future__ import print_function
 
+import sys
 import traceback
 import json
 try:
@@ -62,9 +63,12 @@ def trans(q):
         traceback.print_exc()
 
 
-if __name__ == '__main__':
-    from sys import argv
-    if len(argv) > 1:
-        q = argv[1]
+def main():
+    if len(sys.argv) > 1:
+        q = sys.argv[1]
         trans(q)
+    else:
+        print('please give me the word!')
 
+if __name__ == '__main__':
+    main()
